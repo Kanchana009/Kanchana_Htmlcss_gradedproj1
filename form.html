@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="inner">
+            <div class="image-holder">
+                <img src="images/Lab-Test/lab-test.jpg" alt="image">
+            </div>
+            <form>
+                <h2>Registration Form</h2>
+                <div class="form-group">
+                    <h2>Patient Contact Details</h2>
+                    <h3>Full Name</h3>
+                    <input type="text" required="" class="form-control">
+
+                    <h3>Patient id if exits</h3>
+                    <input type="text" class="form-control">
+
+                    <h3>Contact number</h3>
+                    <input type="text" required="" class="form-control">
+
+                    <h3>Email id</h3>
+                    <input type="text" required="" class="form-control">
+                </div>
+
+                <div class="form-wrapper">
+
+                    <h2>Address</h2>
+                    <h3>H:No</h3>
+                    <input type="text" required="" class="form-control">
+
+                    <h3>Street</h3>
+                    <input type="text" required="" class="form-control">
+                    <h3>Area</h3>
+                    <input type="text" required="" class="form-control">
+
+                    <h3>District</h3>
+                    <select name="District" id="district" required="" class="form-control">
+                        <option value="">Choose</option>
+                        <option value="Mumbai Urban">Mumbai Urban</option>
+                        <option value="Bangalore Rural">Bangalore Rural</option>
+                        <option value="Ramnagar">Ramnagar</option>
+                    </select>
+
+                </div>
+
+                <div class="form-wrapper">
+
+                    <h2>Choose the Test Type</h2>
+                    <p>Check atleast one box without fail</p>
+                    <input type="checkbox" id="c1" name="option1" value="Over Charge">
+                    <label for="c1">CBC</label>
+                    <br>
+                    <input type="checkbox" id="c2" name="option2" value="Meter Board Not Working">
+                    <label for="c2">Complete Urine</label>
+                    <br>
+                    <input type="checkbox" id="c3" name="option3" value="Close the Meter">
+                    <label for="c3">Lipid Profile</label>
+                    <br>
+                    <input type="checkbox" id="c4" name="option4" value="Hard Copy Not Provided">
+                    <label for="c4">Thyroid Stimulating Hormone(TSH)</label>
+                    <br>
+                    <input type="checkbox" id="c5" name="option5" value="Save the water">
+                    <label for="c5">Glucose Test</label>
+
+                </div>
+
+                <div class="form-wrapper">
+
+                    <h2>Do you want a hard copy of the report also?</h2>
+                    <input type="radio" id="c6" name="option" value="True" required="">
+                    <label for="c6">Yes</label>
+                    <br>
+                    <input type="radio" id="c7" name="option" value="False">
+                    <label for="c7">No</label>
+
+                </div>
+
+                <div class="form-wrapper">
+                    <h2>Select your comfortable Date and Time</h2>
+                    <h3>Date</h3>
+                    <input type="text" required="" class="form-control">
+
+                    <h3>Time</h3>
+                    <input type="text" required="" class="form-control">
+                </div>
+
+                <button>Reset</button>
+                <button>Submit</button>
+
+
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
